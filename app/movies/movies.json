@@ -1,0 +1,56 @@
+[
+    {
+        "releaseyear": 2003, 
+        "imageUrl": "img/movies/Okkadu_poster.jpg", 
+        "name": "Okkadu", 
+        "language": "Telugu"
+    },
+    {
+        "releaseyear": 2002, 
+        "imageUrl": "img/movies/CKReddy.jpg", 
+        "name": "Chennakesava Reddy", 
+        "language": "Telugu"
+    }, 
+    {
+        "releaseyear": 2005, 
+        "imageUrl": "img/movies/King Kong.jpg", 
+        "name": "King Kong", 
+        "language": "English"
+    },
+    {
+        "releaseyear": 2002, 
+        "imageUrl": "img/movies/Indra.jpg", 
+        "name": "indra", 
+        "language": "Telugu"
+    }, 
+    {
+        "releaseyear": 2005, 
+        "imageUrl": "img/movies/inception.jpg", 
+        "name": "Inception", 
+        "language": "English"
+    },
+    {
+        "releaseyear": 2019,   
+        "imageUrl": "img/movies/WAR.jpeg", 
+        "name": "WAR", 
+        "language": "Hindi"
+    },
+    {
+        "releaseyear": 2018, 
+        "imageUrl": "img/movies/insidious.jpg", 
+        "name": "Insidious", 
+        "language": "English"
+    },
+    {
+        "releaseyear": 2016,   
+        "imageUrl": "img/movies/MsDhoni.jpg", 
+        "name": "MsDhoni", 
+        "language": "Hindi"
+    },
+    {
+        "releaseyear": 2005,   
+        "imageUrl": "img/movies/don.jpg", 
+        "name": "Don", 
+        "language": "Hindi"
+    }
+]

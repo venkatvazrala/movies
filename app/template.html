@@ -1,0 +1,39 @@
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2">
+        <p>
+            Search:
+            <input ng-model="$ctrl.query">
+          </p>
+    
+          <p>
+            Sort by:
+            <select ng-model="$ctrl.orderProp">
+              <option value="name">Alphabetical</option>
+              <option value="-releaseyear"> by release year</option>
+              <option value="language">language</option>
+            </select>
+          </p>
+          <!-- <p>
+            Sort by:
+            <select ng-model="$ctrl.orderProp">
+              <option value="language">telugu</option>
+              <option value="language"> Hindi</option>
+              <option value="language">English</option>
+            </select>
+          </p> -->
+      </div>
+      <div class="col-md-10">
+        <ul class="movies">
+          <li ng-repeat="movie in $ctrl.movies | filter:$ctrl.query | orderBy:$ctrl.orderProp" class="thumbnail">
+            <a href="#!/movies/{{movie.name}}" class="thumb">
+                <img ng-src="{{movie.imageUrl}}" alt="{{movie.name}}" />
+              </a>
+              <a href="#!/movies/{{movie.id}}">{{movie.name}}</a>
+              <p>{{movie.language}}</p>
+            </li>
+          </ul>
+  
+      </div>
+    </div>
+  </div>
